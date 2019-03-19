@@ -93,7 +93,7 @@ class ControladorVentas{
 
 			$item1b = "ultima_compra";
 
-			date_default_timezone_set('America/Bogota');
+			date_default_timezone_set('America/Santiago');
 
 			$fecha = date('Y-m-d');
 			$hora = date('H:i:s');
@@ -267,7 +267,7 @@ class ControladorVentas{
 
 				$item1b_2 = "ultima_compra";
 
-				date_default_timezone_set('America/Bogota');
+				date_default_timezone_set('America/Santiago');
 
 				$fecha = date('Y-m-d');
 				$hora = date('H:i:s');
